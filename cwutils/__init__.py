@@ -8,7 +8,7 @@ def memory_to_string(input):
 	
 	bytes = float(parsed[0][0])
 	memory_type = parsed[0][1]
-	unit_size = 1000
+	unit_size = 1024
 	
 	if memory_type=='B':
 		return bytes
@@ -29,15 +29,16 @@ def memory_to_string(input):
 	if memory_type == 'YB':
 		result = unit_size**8
 	
-	return bytes/result
+	return '%.2f'%(bytes/result)
 
 	
 def get_size_unit(bytes):
 	SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 	index = 0
 	
-	while bytes >= 1000:
-		bytes /= 1000
+	while bytes >= 1024:
+		bytes /= 1024
 		index += 1
 	
 	return SIZE_UNITS[index]
+	
