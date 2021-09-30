@@ -32,4 +32,3 @@ def memory_to_string(input):
 	
 	
 	
-print(memory_to_string('1000000 to KB'))
