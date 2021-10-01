@@ -7,5 +7,8 @@ setup(
 	author='Chaos and whoami.exe',
 	author_email='nonono@nono.no',
 	url='web.nono.no',
+	install_requires = [
+		'humanfriendly'
+	],
 	packages=['cwutils']
 )
