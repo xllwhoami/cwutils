@@ -6,7 +6,7 @@ setup(
 	description='... simple utils',
 	author='Chaos and whoami.exe',
 	author_email='nonono@nono.no',
-	url='web.nono.no',
+	url='web.kgbot.pp.ua',
 	install_requires = [
 		'humanfriendly'
 	],
