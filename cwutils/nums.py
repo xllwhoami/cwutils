@@ -1,4 +1,3 @@
-
 from num2words import num2words
 
 def num_to_string(n):
