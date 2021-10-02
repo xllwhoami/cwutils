@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 	name='cwutils',
 	version='1.1.0',
-	description='... simple utils',
+	description='test',
 	author='Chaos and whoami.exe',
 	author_email='nonono@nono.no',
 	url='https://web.kgbot.pp.ua',
