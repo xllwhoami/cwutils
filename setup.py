@@ -2,6 +2,9 @@ from setuptools import setup
 
 #with open('README.md') as f:
        # long_description = f.read()
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = ("README.md").read_text()
 
 setup(
 	name='cwutils',
@@ -15,5 +18,7 @@ setup(
 		'humanfriendly',
         'num2words'
 	],
-	packages=['cwutils']
+	packages=['cwutils'],
+	long_description=long_description,
+	long_description_content_type='text/markdown'
 )
