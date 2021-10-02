@@ -32,4 +32,4 @@ memory.memory_from_string('(your number) KB, MB, GB, TB, PB, EB, ZB, UB')
  
  memory.get_size_unit(bytes)
  ```
- > Возвращает макс.тип размерности кол-ва переданных байтов
+ > Возвращает макс.тип размерности кол-ва переданных байтов.
