@@ -16,6 +16,7 @@ memory.memory_from_bytes((your number) to (KB, MB, GB, TB, PB, EB, ZB, UB)
 > конвентирует байты в KB, MB, GB, TB, PB, EB, ZB, UB (в зависимости от того что вы напишите после "to".).
 ```python
 from cwutils import memory
+
 memory.get_size_unit_in_bytes('KB, MB, GB, TB, PB, EB, ZB, UB')
 ```
 > конвертирует KB, MB, GB, TB, PB, EB, ZB, UB в байты. 
