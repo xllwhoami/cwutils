@@ -27,9 +27,17 @@ memory.memory_from_string('(your number) KB, MB, GB, TB, PB, EB, ZB, UB')
 ```
 > Тоже самое что и в 1. В "your number" напишите число, которые хотите конвертировать в KB, MB, GB, TB, PB, EB, ZB, UB.
  
- ```python 
- from cwutils import memory
+```python 
+from cwutils import memory
  
- memory.get_size_unit(bytes)
- ```
- > Возвращает макс.тип размерности кол-ва переданных байтов.
+memory.get_size_unit(bytes)
+```
+> Возвращает макс.тип размерности кол-ва переданных байтов.
+
+### Модуль nums
+***
+```python
+from cwutils import nums
+
+nums.num_to_string(your number)
+> Конвертирует цифры в строчные цифры.
