@@ -40,4 +40,5 @@ memory.get_size_unit(bytes)
 from cwutils import nums
 
 nums.num_to_string(your number)
+```
 > Конвертирует цифры в строчные цифры.
