@@ -1,8 +1,6 @@
 from setuptools import setup
-
-with open('README.md') as f:
-       long_description = f.read()
 from pathlib import Path
+
 this_directory = Path(__file__).parent
 long_description = (this_directory/"README.md").read_text()
 
