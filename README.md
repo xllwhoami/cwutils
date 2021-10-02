@@ -12,7 +12,7 @@ time.time_to_string(second)
 ```python
 from cwutils import memory
 
-memory.memory_from_bytes((your number) to (KB, MB, GB, TB, PB, EB, ZB, UB)
+memory.memory_from_bytes('{{your number}} to {}KB, MB, GB, TB, PB, EB, ZB, UB}}'
 ```
 > Конвентирует байты в KB, MB, GB, TB, PB, EB, ZB, UB (в зависимости от того что вы напишите после "to".).
 ```python
