@@ -1,5 +1,4 @@
-
-"""### Модуль time
+__doc__="""### Модуль time
 *** 
 ```python
 from cwutils import time
