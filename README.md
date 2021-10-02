@@ -20,7 +20,7 @@ from cwutils import memory
 
 memory.get_size_unit_in_bytes('KB, MB, GB, TB, PB, EB, ZB, UB')
 ```
-> Конвертирует KB, MB, GB, TB, PB, EB, ZB, UB в байты. 
+> Возвращает размер 1 памятной единицы которую вы передали.
 ```python from cwutils import memory
 
 memory.memory_from_string('(your number) KB, MB, GB, TB, PB, EB, ZB, UB')
