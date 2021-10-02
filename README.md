@@ -1,6 +1,6 @@
 ### Модуль time
 ***
-```
+```python
 from cwutils import time
 
 time.time_to_string(second)
