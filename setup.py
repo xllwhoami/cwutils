@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
 	name='cwutils',
-	version='1.1.0',
+	version='1.2.0',
 	description='test',
     #long_description=long_description,
 	author='Chaos and whoami.exe',
