@@ -8,7 +8,7 @@ long_description = (this_directory/"README.md").read_text()
 
 setup(
 	name='cwutils',
-	version='1.2.1',
+	version='1.1.1',
 	description='Utils by Chaos and Whoami.',
     #long_description=long_description,
 	author='Chaos and whoami.exe',
